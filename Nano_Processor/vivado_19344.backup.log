@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue May 30 22:51:00 2023
+# Process ID: 19344
+# Current directory: D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4532 D:\Academic\02. Computer Organization and Digital Design\Lab Work\Nano_Processor\Nano_Processor.xpr
+# Log file: D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/vivado.log
+# Journal file: D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.xpr}
+Scanning sources...
+Finished scanning sources
+IINFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifiedINFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2018.2/data/ip'.
+oopen_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 892.977 ; gain = 168.820uupdate_compile_order -fileset sources_1import_files -norecurse {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Lab_7/Lab_7.srcs/sources_1/new/AU_7_seg.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/imports/new/AU_7_seg.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/imports/new/AU_7_seg.vhd}}
+close [ open {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/Program_Counter_3Bit.vhd} w ]
+add_files {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/Program_Counter_3Bit.vhd}}
+update_compile_order -fileset sources_1
+import_files -norecurse {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Lab_5/Lab_5.srcs/sources_1/new/Slow_Clk.vhd}}
+update_compile_order -fileset sources_1
+close [ open {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_2_1_3Bit.vhd} w ]
+add_files {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_2_1_3Bit.vhd}}
+close [ open {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_2_1_4Bit.vhd} w ]
+add_files {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_2_1_4Bit.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_2_1.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_2_1.vhd}}
+file delete -force {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_2_1.vhd}
+import_files -norecurse {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Lab_4/Lab_4.srcs/sources_1/new/Mux_8_to_1.vhd} {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Lab_4/Lab_4.srcs/sources_1/new/Decoder_3_to_8.vhd} {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Lab_4/Lab_4.srcs/sources_1/new/Decoder_2_to_4.vhd}}
+update_compile_order -fileset sources_1
+close [ open {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_8_1_4Bit.vhd} w ]
+add_files {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/new/MUX_8_1_4Bit.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/imports/new/Mux_8_to_1.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/imports/new/Mux_8_to_1.vhd}}
+file delete -force {D:/Academic/02. Computer Organization and Digital Design/Lab Work/Nano_Processor/Nano_Processor.srcs/sources_1/imports/new/Mux_8_to_1.vhd}
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 31 00:50:37 2023...
