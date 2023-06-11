@@ -66,9 +66,9 @@ UUT : CPU port map (
 Clock : process 
     begin
         clk_in <= '0';
-        wait for 1 ns;
+        wait for 2 ns;
         clk_in <= '1';
-        wait for 1 ns;
+        wait for 2 ns;
 end process;
 
 process
